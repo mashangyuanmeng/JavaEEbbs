@@ -1,0 +1,57 @@
+<style>
+a:link, a:active, a:visited{TEXT-DECORATION:none ;Color:#0000FF},A{text-decoration:none;color:#0000FF},A:hover {COLOR: #FF0000; TEXT-DECORATION: underline}
+body
+{
+scrollbar-face-color: #e8e7e7;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #e8e7e7;
+scrollbar-3dlight-color: #e8e7e7;
+scrollbar-arrow-color: #0066ff;
+scrollbar-track-color: #EFEFEF;
+scrollbar-darkshadow-color: #98AAB1;
+background: #E8F7FC url(../images/bg.jpg) repeat-x; 
+color: #306172;
+
+}
+TABLE {
+FONT-FAMILY: 宋体;
+BORDER-COLLAPSE: collapse
+}
+TH{
+background-color: #76aef0;
+color: white;
+font-weight:bold;
+}
+
+.font {
+FILTER: DropShadow(Color=#cccccc, OffX=2, OffY=1, Positive=2); TEXT-DECORATION: none
+}
+
+.content_head {
+width: 100%;
+padding: 2px;
+border-top: 1px dashed #CCC;
+border-right: 1px dashed #CCC;
+border-bottom: 1px dashed #CCC;
+border-left: 1px dashed #036;
+background: #F3F3F3;
+font: Tahoma, Verdana, "宋体";
+}
+.content_main {
+padding: 4px;
+width: 100%;
+font: Tahoma, Verdana, "宋体"; color:#666666
+}
+.inputstyle {
+BORDER-RIGHT: #5589aa 1px solid; BORDER-TOP: #5589aa 1px solid; FONT-SIZE: 15px; BORDER-LEFT: #5589aa 1px solid; COLOR: #000000; BORDER-BOTTOM: #5589aa 1px solid
+}
+
+input {
+FONT-FAMILY: 宋体;
+font-size:12pt
+}
+textarea {
+FONT-FAMILY: 宋体;
+font-size:12pt
+}
+</style>

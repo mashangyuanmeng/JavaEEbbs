@@ -1,0 +1,469 @@
+div{
+  word-break:break-all;	
+}
+body {
+	background-color: #C9D4D8;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-size: 12px;
+	text-decoration: none;
+   font-family:verdana;
+   	background: #E8F7FC url(../images/bg.jpg) repeat-x; 
+	color: #306172;
+ 
+}
+a:link,
+a:active,
+a:visited { 	
+	font-size: 15px;
+	color: #0000FF;
+	line-height: 120%;
+	text-decoration: none;
+}
+a:hover { 	  
+	font-size: 15px;
+	color: #FF0000;
+	line-height: 120%;
+	text-decoration: underline;
+}
+form{
+    height: auto;
+	 padding: 0;
+	 margin: 0;
+}
+
+/*===============定义Blog名称=====================*/
+h1 {
+	font-size:20pt;
+	font-weight:bold;
+	margin-top:80px;
+   color: #fff;
+	background: transparent;
+	margin-right: 200px;
+}
+h2{	  
+  text-align: center;
+  height: 23px;
+  padding:15px 0px 0px 30px;
+  font-size: 14px; 
+  color: #000;
+}
+h2.count{	    
+}
+h3{  
+  display: none;
+}
+
+/*===============每一栏的标题=====================*/
+h4{ 
+  padding-left: 10px;
+  padding-top: 11px;
+  padding-bottom: 4px;
+  font-size: 14px;
+  color:#003366;
+}
+h4.textDiary{
+  display: none;
+}
+h4.textBlog{
+  display: none;
+  font-size: 14px;
+}
+/*===============日志标题=====================*/
+
+h5.diaryTitle{
+}
+
+/*===============其它=====================*/
+h6{
+
+}
+
+/*===登录用户名 密码===*/
+
+td.tdText{
+	
+}
+/*===留言板 ===*/
+h6.name{
+   display: none;
+}
+
+ul{
+   padding: 0 5% 0 10px;
+	margin: 0 0 0 10px;
+}
+
+/*===定义书签组===*/
+ul.bookmarkGroup{   
+}
+li{  
+  list-style: none;    
+}
+
+/*===最新Blog列表===*/
+li.weblog{	   
+}
+
+	
+/*===留言列表===*/
+li.guestBook{ 
+  color: #003366;
+  line-height: 20px;
+}
+
+/*===留言板文字===*/
+span.text{
+  color: #333;
+}
+
+/*===书签列表===*/
+li.bookmark{
+    list-style: none;	
+}
+/*===友情Bolg列表===*/
+li.friendBlog{	
+	list-style: none;
+}
+
+
+/*===友情Bolg文字===*/
+span.friendBlogText{
+
+}
+/*===书签图片===*/
+img.bookmarkImg{
+  border: 0px;
+}
+
+/*===Rss图片===*/
+img.rss{
+  border: 0px;
+  margin-left: 0px;  
+}
+
+/*===Logo图片===*/
+img.logo{
+  border: 0px;
+  margin-left: 10px;  
+}
+
+/*===其他功能图片===*/
+img.operat{
+    border: 0px;
+    margin-left: 50px;  
+}
+img.imgShow{
+    border: 0px;	
+}
+/*===定义Logo===*/
+div.logoFrm{
+    text-align: center;
+	
+}
+/*===定义留言板小输入框===*/
+input.guestbookName {	
+   font-family: Arial,Helvetica,sans-serif;
+	font: 11px arial; 
+	height: 15px;
+	width: 100px;
+	border: 1px solid #6e6855;
+	color: #000;
+	margin-left:20px;
+	margin-right: 10px;
+	margin-top: 5px;
+	background-color: #eeeeee;
+}
+
+/*===定义留言板大输入框===*/
+.guestbookInput {
+   font-family: Arial,Helvetica,sans-serif;
+	font: 11px arial; 
+	border: 1px solid #6e6855;
+	color: #000;
+	width: 150px;
+	margin-left: 20px;
+	height: 50px;
+	margin-top: 10px;
+	background-color: #eeeeee;
+	margin-bottom: 10px;
+}
+
+/*===定义登陆输入框样式===*/
+input.inputStyle{   
+	font-family: Arial,Helvetica,sans-serif;
+	font: 11px arial; 
+	height: 15px;
+	width: 70px;
+	border: 1px solid #6e6855;
+	color: #000;
+	margin-left:5px;
+	margin-right: 10px;
+	background-color: #eeeeee;
+}
+/*===定义按纽样式===*/
+input.buttonStyle{  
+	font-family: Arial,Helvetica,sans-serif;
+	font: 11px arial; 
+	border: 1px solid #6e6855;
+	color: #000;
+	margin-right: 5px;
+	background-color: #eeeeee;
+}
+/*=============================定义 ID 样式===============================================*/
+
+/*=====================================大框架==================================*/
+div#container{     
+    width: 1002px !important; 	
+	 width: 1000px; 	 
+    text-align:left;
+	 float: left;
+	 background-image: url(http://blog.blogchina.com/template/template3/images/body_bg.jpg);
+	 background-repeat: repeat-x;
+	 background-position: 0 192px;
+}
+/*===================================头部=====================================*/
+div#header{   
+    background-image: url(http://blog.blogchina.com/template/template3/images/header.jpg);
+	 background-repeat: no-repeat;
+	 background-position: left top;
+	 background-color: #fff;
+	 text-align:  right;   	
+	 height:202px !important;
+	 height:192px;
+    width: 1002px !important; 	
+	 width: 1000px; 
+	 float: left;
+	 padding-bottom: 0px;
+}
+/*===================================左边框架==============================*/
+div#myPhoto td{ 
+   padding: 0 10px;
+}
+div#calendar H4{ 
+  color:#fff;
+}
+div#myPhoto a{
+   text-decoration: none;	
+	border: 0px;
+}
+div#myPhoto H4{   
+   color:#fff;
+}
+div#otherFrm td{
+	margin: 0;
+	padding: 0;
+}
+img.myPhoto{ 
+   margin-left: 7px;
+   border:0px;   
+   width:100px;
+   height:92px;
+	margin-top: 0px;
+	margin-right: 5px;
+}
+
+div#leftFrm{
+   width: 200px;
+	float: left;
+	padding: 0;
+	text-align: center;
+}
+div#operaTitle{
+   display: none;
+}
+
+/*=======功能框架=======*/
+div.operation{
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+div.friendBlogDIV{
+
+}
+/*=========================右边框架=============================*/
+div#rightFrm{
+   float: right;
+	width: 770px;
+	margin-right: 10px;
+	padding-bottom: 25px;
+	background-image: url(http://blog.blogchina.com/template/template3/images/bottom.gif);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+div#rightFrm a:visited{
+	font-size: 16px;
+}
+div#rightFrm a:link{	
+	font-size: 16px;
+}
+div#rightFrm a:hover{
+	font-size: 16px;
+}
+/*=======Blog个性图片=======*/
+div#blogImg{  
+   background-image: url(http://blog.blogchina.com/template/template3/images/title.gif);
+   background-repeat: no-repeat;
+	background-position: top;
+   margin: 0;
+	margin-top: 10px;
+	height: 27px;
+	padding: 0;
+}
+/*=======Blog介绍=======*/
+div#blogContent{
+   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000000;
+	line-height: 150%;
+	margin: 0;
+	text-align: left;	
+	background-color: #fff;
+}
+p.content{
+   margin: 0px 5px 0 10px;  		
+	padding: 5px;	
+}
+/*=======日志=======*/
+div#diary{
+}
+div.diaryContent{
+}
+/*=======日志主体=======*/
+div.entity{   
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000000;
+	line-height: 150%;
+	padding: 0px 20px 0px 20px;
+	text-align: left;	
+	margin:0;
+	background-color: #fff;
+	border: 1px solid #fff;
+}
+
+/*=======日志底部=======*/
+p.diaryFoot{
+	padding-top: 20px;
+   height: 34px;
+	text-align: right;
+	margin: 0px;
+}
+
+/*=======栏目=======*/
+div#category{
+   padding:5px 0px 5px 10px;
+	font-size: 14px;
+	text-align: center;
+	background-color: #fff;
+}
+div#category a{
+	font-size: 18px;
+}
+/*=================================底部===============================*/
+#footer {
+   background-image: url(http://blog.blogchina.com/template/template3/images/footbg.gif);
+	background-repeat: repeat-x;
+	background-position: left top;
+   width: 1002px !important; 	
+	width: 1000px;
+   padding: 10px 0 5px 0;
+	text-align: right;
+	float: left;
+}
+
+
+/*===================================日历所用样式========================================*/
+/*=====日历大框架======*/
+.calendarBigBorder {
+	font-family: Arial,Helvetica,sans-serif;
+	WIDTH: 95%;
+	TEXT-DECORATION: none;
+	margin: 5px;
+	height: 170px;	
+}
+.calendarBigBorder a{
+	color:#fff;
+}
+.calendarBigBorder a:visited {
+	color:#fff;
+}
+/*=====日历一般单元格======*/
+.calendarTd {
+	font-family: Arial,Helvetica,sans-serif;
+	FONT-SIZE: 9pt; 
+	WIDTH: 12%; 
+	color: #000;
+   HEIGHT: 18px; 
+	TEXT-ALIGN: center;
+	cursor: hand;
+}
+/*=====日历今天样式======*/
+.calendarNow {
+	font-family: Arial,Helvetica,sans-serif;
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 9pt; 
+	WIDTH: 12%; 
+   COLOR:#003366;
+	HEIGHT: 18px; 
+	TEXT-ALIGN: center; 
+	TEXT-DECORATION: none;
+	cursor: hand;
+}
+/*=====日历星期六样式======*/
+.calendarDaySat {
+	font-family: Arial,Helvetica,sans-serif;
+	FONT-SIZE: 9pt; 
+	WIDTH: 12%; 
+	HEIGHT: 18px; 
+   COLOR:  #000;
+	TEXT-ALIGN: center; 
+	TEXT-DECORATION: none;
+	cursor: hand;
+}
+/*=====日历星期天样式======*/
+.calendarDaySun {
+	font-family: Arial,Helvetica,sans-serif;
+	FONT-SIZE: 9pt; 
+	WIDTH: 12%; 
+	HEIGHT: 18px; 
+	TEXT-ALIGN: center;
+	TEXT-DECORATION: none;
+   COLOR: #000;
+   cursor: hand;
+}
+/*=====日历有连接的样式======*/
+.calendarLink {
+	font-family: Arial,Helvetica,sans-serif;
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 9pt; 
+	WIDTH: 12%; 
+   HEIGHT: 18px; 
+	TEXT-ALIGN: center; 
+	TEXT-DECORATION: none;
+	color: Blue;
+	cursor: hand;
+}
+/*=====日历鼠标移动上的样式======*/
+.calendarHover{
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 9pt;
+	color: #F00; 
+	text-decoration: none;
+	text-align: center;
+	height: 18px;
+	cursor: hand;
+	WIDTH: 12%; 
+}
+h5{   
+    color:#0000FF;
+	font: bold 16px georgia;
+	margin-top: 15px;
+	margin-bottom: 2px;
+	background: transparent;
+    text-align: left;
+}
